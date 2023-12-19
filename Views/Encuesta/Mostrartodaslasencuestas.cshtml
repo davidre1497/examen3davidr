@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Examen3David.Models.Encuesta>
+
+@{
+    ViewBag.Title = "Ver Encuestas";
+}
+
+<h2>Encuestas Registradas</h2>
+
+<table class="table">
+    <tr>
+        <th>Numero de Encuesta</th>
+        <th>Nombre del Participante</th>
+        <th>Edad</th>
+        <th>Correo Electrónico</th>
+        <th>Partido Político</th>
+    </tr>
+
+    @foreach (var encuesta in Model)
+    {
+        <tr>
+            <td>@encuesta.NumeroEncuesta</td>
+            <td>@encuesta.NombreParticipante</td>
+            <td>@encuesta.Edad</td>
+            <td>@encuesta.CorreoElectronico</td>
+            <td>@encuesta.Partido.Nombre</td>
+        </tr>
+    }
+</table>

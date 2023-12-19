@@ -1,0 +1,25 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1 class="text-danger">Error</h1>
+        <h2 class="text-danger">An error occurred while processing your request.</h2>
+    </hgroup>
+
+    <div>
+        <h3>Controller: @Model.ControllerName</h3>
+        <h3>Action: @Model.ActionName</h3>
+        <p>Error Message: @Model.Exception.Message</p>
+        <p>Stack Trace: @Model.Exception.StackTrace</p>
+    </div>
+</body>
+</html>

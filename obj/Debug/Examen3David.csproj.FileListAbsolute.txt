@@ -1,0 +1,2 @@
+C:\Users\Usuario\OneDrive\Escritorio\UPI 2023\Programacion ll\Examen2\Examen 2\Examen3David\Examen3David\obj\Debug\Examen3David.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\UPI 2023\Programacion ll\Examen2\Examen 2\Examen3David\Examen3David\obj\Debug\Examen3David.csproj.CoreCompileInputs.cache
