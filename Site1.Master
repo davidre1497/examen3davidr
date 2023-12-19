@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Examen3David.Site1" %>
+
+<head>
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+        }
+        .auto-style2 {
+            width: 100%;
+        }
+    </style>
+</head>
+<html>
+<body>
+    <div>
+        <h1 class="auto-style1">Encuestas</h1>
+    </div>
+
+    <div class="auto-style1">
+        <!-- Contenido específico de cada vista va aquí -->
+        <table class="auto-style2">
+            <tr>
+                <td>
+        <ul>
+            <li class="auto-style1"><a href="@Url.Action("LlenarEncuesta", "Encuesta")">Llenar Encuesta</a></li>
+            <li class="auto-style1"><a href="@Url.Action("VerReportes", "Encuesta")">Ver Reportes</a></li>
+        </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Scripts al final del cuerpo de la página -->
+</body>
+</html>
